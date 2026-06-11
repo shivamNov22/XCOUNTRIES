@@ -16,7 +16,8 @@ function App() {
 
       setCountries(res.data);
     } catch (error) {
-      console.error("error", error);
+      console.error(error);
+      console.log(error);
     }
   };
 
