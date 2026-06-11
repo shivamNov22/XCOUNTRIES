@@ -16,8 +16,7 @@ function App() {
 
       setCountries(res.data);
     } catch (error) {
-      console.error(error);
-      console.log(error);
+      console.error("Error fetching data:", error);
     }
   };
 
